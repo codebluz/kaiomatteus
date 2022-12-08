@@ -1,0 +1,168 @@
+.promote-service-area {
+    width: 100vw;
+    height: auto;
+    transition: 1s;
+}
+.promote-service-area:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.image-carousel {
+    height: 100%;
+}
+
+#about-me {
+    width: 100vw;
+    height: 250px;
+    background-color: #030508;
+    transition: 1s;
+}
+.about-me:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.about-me-area {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-image-area {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;   
+}
+.about-me-image {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+}
+.about-me-presentation-area {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;;
+}
+.about-me-name {
+    max-width: 150px;
+    width: auto;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+}
+.about-me-desc {
+    text-align: justify;
+    font-size: 12px;
+    width: 90%;
+}
+
+#service {
+    width: 100vw;
+    height: 400px;
+    background-color: #de3842;
+    display: flex;
+    align-items: center;
+}
+.service-area {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.card-item {
+    width: 280px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    transition: 1.5s;
+}
+.card-item:hover {
+    width: 300px;
+    height: 380px;
+    cursor: pointer;
+}
+.card-item-image-area {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+}
+.card-item-image {
+    width: 90%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-item-desc-area {
+    width: 100%;
+    height: 140px;
+    background-color: #030508;
+    opacity: 0.6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card-title {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 18px
+}
+.card-description ul li {
+    font-size: 14px;
+}
+
+@media (max-width: 840px) {
+    .title-carousel-item {
+        font-size: 18px;
+    }
+    .desc-carousel-item {
+        font-size: 12px;
+    }
+    .about-me-image {
+        width: 100px;
+    }
+    .about-me-name {
+        font-size: 16px;
+    }
+    .about-me-desc {
+        font-size: 12px;
+    }
+    #service {
+        height: auto;
+    }
+    .service-area {
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 640px) {
+    .title-carousel-item {
+        font-size: 14px;
+    }
+    .desc-carousel-item {
+        font-size: 8px;
+    }
+    #about-me {
+        height: auto;
+    }
+    .about-me-area {
+        gap: 20px;
+    }
+    .about-me-name {
+        font-size: 12px;
+    }
+    .about-me-desc {
+        font-size: 9px;
+    }
+}
+@media (max-width: 480px) {
+    .about-me-desc {
+        font-size: 8px;
+    }
+}
